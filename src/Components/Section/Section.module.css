@@ -1,0 +1,38 @@
+.section {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .section {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .section {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}

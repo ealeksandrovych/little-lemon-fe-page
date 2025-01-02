@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navList {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .navList {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .nav {
+        gap: 15px;
+    }
+}

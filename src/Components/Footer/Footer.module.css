@@ -1,0 +1,47 @@
+.footer {
+    background-color: #495e57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactInfo {
+    margin-bottom: 20px;
+}
+
+.socialLinks {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .contactInfo,
+    .socialLinks {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .contactInfo,
+    .socialLinks {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .contactInfo,
+    .socialLinks {
+        font-size: 18px;
+    }
+}

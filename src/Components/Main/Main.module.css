@@ -1,0 +1,45 @@
+.main {
+    padding: 20px;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #495e57;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .heroSection {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        padding: 15px;
+    }
+
+    .heroSection {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main {
+        padding: 20px;
+    }
+
+    .heroSection {
+        padding: 40px;
+    }
+}

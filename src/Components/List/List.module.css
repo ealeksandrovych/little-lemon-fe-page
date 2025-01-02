@@ -1,0 +1,23 @@
+.list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .list {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .list {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .list {
+        padding: 20px;
+    }
+}
