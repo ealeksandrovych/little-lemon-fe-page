@@ -1,13 +1,29 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    list-style: none;
+    padding: 10px 20px;
+    background-color: #495e57;
 }
 
 .navList {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+}
+
+.navList li {
+    list-style: none;
+}
+
+.navList a {
+    text-decoration: none;
+    color: #f4ce14;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navList a:hover {
+    color: #ee9972;
 }
 
 @media (max-width: 768px) {
@@ -33,3 +49,4 @@
         gap: 15px;
     }
 }
+

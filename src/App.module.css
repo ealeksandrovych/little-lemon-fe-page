@@ -1,0 +1,103 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #edefee;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Markazi Text', serif;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  color: #495e57;
+}
+
+span {
+  color: #f4ce14;
+  font-weight: bold;
+}
+
+button {
+  background-color: #f4ce14;
+  color: #333333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ee9972;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heroSection img {
+  border-radius: 0;
+}
+
+.page {
+  padding: 20px;
+  background-color: #edefee;
+  color: #333333;
+  text-align: center;
+}
+
+.page h1 {
+  font-size: 32px;
+  color: #495e57;
+}
+
+.page p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}

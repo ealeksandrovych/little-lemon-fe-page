@@ -1,6 +1,5 @@
-// Main.js
 import React from 'react';
-import Section from './Section';
+import Section from '../Section/Section';
 import styles from './Main.module.css';
 
 function Main() {
@@ -11,10 +10,8 @@ function Main() {
         <button>Reserve a Table</button>
       </Section>
       <Section title="Specials" className={styles.specialsSection}>
-        {/* Specials content here */}
       </Section>
       <Section title="Testimonials" className={styles.testimonialsSection}>
-        {/* Testimonials content here */}
       </Section>
     </main>
   );

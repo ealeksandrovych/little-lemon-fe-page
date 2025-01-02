@@ -1,18 +1,18 @@
 import React from 'react';
-import List from './List';
-import ListItem from './ListItem';
-import Link from './Link';
 import styles from './Nav.module.css';
+import List from '../List/List';
+import ListItem from '../ListItem/ListItem';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <nav className={styles.nav}>
       <List className={styles.navList}>
-        <ListItem><Link href="#home">Home</Link></ListItem>
-        <ListItem><Link href="#about">About</Link></ListItem>
-        <ListItem><Link href="#menu">Menu</Link></ListItem>
-        <ListItem><Link href="#reservations">Reservations</Link></ListItem>
-        <ListItem><Link href="#login">Login</Link></ListItem>
+        <ListItem><Link to="/">Home</Link></ListItem>
+        <ListItem><Link to="/about">About</Link></ListItem>
+        <ListItem><Link to="/menu">Menu</Link></ListItem>
+        <ListItem><Link to="/reservations">Reservations</Link></ListItem>
+        <ListItem><Link to="/login">Login</Link></ListItem>
       </List>
     </nav>
   );

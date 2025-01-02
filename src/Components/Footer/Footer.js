@@ -1,8 +1,8 @@
 import React from 'react';
-import Section from './Section';
-import List from './List';
-import ListItem from './ListItem';
-import Link from './Link';
+import Section from '../Section/Section';
+import List from '../List/List';
+import ListItem from '../ListItem/ListItem';
+import Link from '../Link/Link';
 import styles from './Footer.module.css';
 
 function Footer() {

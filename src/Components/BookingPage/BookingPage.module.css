@@ -1,0 +1,15 @@
+.bookingPage {
+    padding: 20px;
+    text-align: center;
+    background-color: #edefee;
+    color: #333333;
+}
+
+.bookingPage h1 {
+    font-size: 32px;
+    color: #495e57;
+}
+
+.bookingPage p {
+    font-size: 16px;
+}
