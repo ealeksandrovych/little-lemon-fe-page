@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Nav.module.css';
 import List from '../List/List';
 import ListItem from '../ListItem/ListItem';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
 function Nav() {
   return (

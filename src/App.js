@@ -8,16 +8,15 @@ import './App.module.css';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/booking" element={<BookingPage />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
 export default App;
-
