@@ -1,10 +1,18 @@
 import React from 'react';
 import styles from './Section.module.css';
 
-function Section({ title, children, className }) {
+function Section({ title, children, className = '', ...props }) {
   return (
-    <section className={`${styles.section} ${className}`}>
-      {title && <h2 className={styles.title}>{title}</h2>}
+    <section
+      className={`${styles.section} ${className}`}
+      aria-labelledby={title ? 'section-title' : undefined}
+      {...props}
+    >
+      {title && (
+        <h2 id="section-title" className={styles.title}>
+          {title}
+        </h2>
+      )}
       {children}
     </section>
   );

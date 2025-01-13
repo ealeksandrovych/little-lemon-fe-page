@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect" 
+    }
+  },
+  "globals": {
+    "fetchAPI": "readonly",
+    "submitAPI": "readonly"
+  },
+  "rules": {
+    "react/prop-types": "off", 
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }], 
+    "react/react-in-jsx-scope": "off" 
+  }
+}
